@@ -1,0 +1,53 @@
+/* Auth.css - Styling for authentication components */
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.auth-title {
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+
+.auth-subtitle {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forgot-link {
+  color: #1890ff;
+  font-size: 14px;
+}
+
+.social-button {
+  min-width: 120px;
+  border-radius: 6px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .auth-card {
+    max-width: 100%;
+  }
+  
+  .social-button {
+    min-width: 100px;
+  }
+}
